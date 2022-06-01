@@ -11,20 +11,20 @@
   text-decoration: none;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, a {
     margin: 0;
     padding: 0;
 }
 
-.main-header-block {
-    display: flex;
+.header-block {
+    min-width: 1170px;
     height: 80px;
-    justify-content: center;
-    align-items: center;
 }
 
-.accent-color {
-    color: var(--accent-color);
+.main-header-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .list{
@@ -39,7 +39,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size:14px ;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -115,7 +115,7 @@ body{
 
     font-weight: 900;
     font-size:44px;
-    line-height: 1.4;
+    line-height: 1.36;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.06em;
@@ -141,7 +141,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size:16px;
-    line-height: 1.9;
+    line-height: 1.89;
     letter-spacing: 0.03em;
     text-align: center;
     cursor: pointer;
@@ -183,7 +183,7 @@ body{
 }
 
 .benefits-title {
-    line-height: 1.7;
+    line-height: 1.71;
 }
 
 .our-team-block {
@@ -234,18 +234,45 @@ address {font-style: normal;}
     display:flex;
     flex-direction: column;
     justify-content: first baseline;
+    min-width: 1600px;
     height: 252px;
     align-items: center;
     background-color: #2F303A;
 
 
-    line-height: 1.7;
+    line-height: 1.71;
     color: var(--backround-color);
 
 }
 
+.fotter-box {
+    width: 1170px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
 .footer-contacts {
-    color: var(--backround-color) ;
+    color: var(--backround-color)
+
+
+}
+
+.footer-contacts:first-child{
+    margin-top: 20px;
+    color: var(--backround-color);
+    line-height: 1.71;
+
+
+}
+
+.footer-contacts:nth-child(n+2) {
+    margin-top: 9px;
+}
+
+.footer-contacts-text {
+color: rgba(255, 255, 255, 0.6);
+line-height: 1.71;
 }
 
 .container-portfolio{
@@ -277,7 +304,7 @@ font-family: 'Roboto', sans-serif;
 cursor: pointer;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.6;
+line-height: 1.63;
 text-align: center;
 }
 
@@ -330,6 +357,6 @@ background-color: var(--accent-color);
     padding: 0px 24px 20px 24px;
 
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.89;
     color: #757575;
 }
