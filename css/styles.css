@@ -106,7 +106,7 @@ body{
 }
 
 .main-headline{
-    background: #2F303A;
+    background-color: #2F303A;
     color: var(--backround-color);
     padding: 200px 452px 280px 452px;
     margin: 0px;
