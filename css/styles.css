@@ -307,13 +307,12 @@ text-align: center;
 }
 
 .button-portfolio-text:hover, .button-portfolio-text:focus {
-padding: 6px 22px;
-color: var(--backround-color);
+    color: var(--backround-color);
 }
 
 
 .button-portfolio-text{
-    padding: 6px 22px;
+    padding: 10px 22px;
     font-family: 'Roboto', sans-serif;
     color: var(--main-text-color);
     letter-spacing: 0.03em;
