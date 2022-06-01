@@ -84,6 +84,7 @@ body{
     display: flex;
     margin-top: 32px;
     margin-bottom: 32px;
+    color: #de2121;
 
     font-weight: 500;
     color: var(--main-text-color);
@@ -91,12 +92,9 @@ body{
 }
 
 .contacts-nav-link {
-    display: flex;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    color: #757575;
 
     font-weight: 500;
-    color: var(--main-text-color);
     letter-spacing: 0.02em;
 }
 
@@ -271,7 +269,7 @@ address {font-style: normal;}
 }
 
 .footer-contacts-text {
-color: rgba(255, 255, 255, 0.6);
+color: var(--backround-color); opacity: 0.6;
 line-height: 1.71;
 }
 
