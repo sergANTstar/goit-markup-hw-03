@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="header-block">
-        <div class="main-header-block">
+        <div class="main-header-block container">
             <a href="./index.html" lang="en" class="logo-black"><span class="logo-web">Web</span>Studio</a>
             <nav>
                 <ul class="site-nav list">
@@ -37,13 +37,13 @@
         </div>
     </header>
     <main>
-        <section>
-            <h1 class="main-headline">Ефективні рішення <br/> для вашого бізнесу</h1>
+        <section class="main-headline" >
+            <h1 class="main-headline-text">Ефективні рішення <br/> для вашого бізнесу</h1>
             <div class="bautton-block">
                 <button type="button" class="order-button">Замовити послугу</button>
             </div>
         </section>
-        <section >
+        <section class="container">
             <ul class="our-advantages list">
                 <li class="our-advantages-item">
                     <h3 class="benefits-headline">Увага до деталей</h3>
@@ -71,7 +71,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="we-doing-section container">
             <h2 class="second-headline">Чим ми займаємося</h2>
             <ul class="we-doing list">
                 <li class="we-doing-item">
@@ -86,45 +86,57 @@
             </ul>
         </section>
         <section class="our-team-block">
-            <h2 class="second-headline team-main">Наша команда</h2>
-            <ul class="our-team list">
-                <li class="our-team-item">
-                    <img src="./images/pdesigner.jpg" width="270" alt="Product Designer" class="img">
-                    <h3 class="command-name">Ігор Демяненко</h3>
-                    <p lang="en" class="command-name-position">Product Designer</p>
-                </li>
-                <li class="our-team-item">
-                    <img src="./images/developer.jpg" width="270" alt="Frontend Developer" class="img">
-                    <h3 class="command-name">Ольга Репіна</h3>
-                    <p lang="en" class="command-name-position">Frontend Developer</p>
-                </li>
-                <li class="our-team-item">
-                    <img src="./images/marketing.jpg" width="270" alt="Marketing" class="img">
-                    <h3 class="command-name">Микола Тарасов</h3>
-                    <p lang="en" class="command-name-position">Marketing</p>
-                </li>
-                <li class="our-team-item">
-                    <img src="./images/uidesigner.jpg" width="270" alt="UI Designer" class="img">
-                    <h3 class="command-name">Михайло Єрмаков</h3>
-                    <p lang="en" class="command-name-position">UI Designer</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="second-headline">Наша команда</h2>
+                <ul class="our-team list">
+                    <li class="our-team-item">
+                        <img src="./images/pdesigner.jpg" width="270" alt="Product Designer" class="img">
+                        <div class="command">
+                            <h3 class="command-name">Ігор Демяненко</h3>
+                            <p lang="en" class="command-name-position">Product Designer</p>
+                        </div>
+                    </li>
+                    <li class="our-team-item">
+                        <img src="./images/developer.jpg" width="270" alt="Frontend Developer" class="img">
+                        <div class="command">
+                            <h3 class="command-name">Ольга Репіна</h3>
+                            <p lang="en" class="command-name-position">Frontend Developer</p>
+                        </div>
+                    </li>
+                    <li class="our-team-item">
+                        <img src="./images/marketing.jpg" width="270" alt="Marketing" class="img">
+                        <div class="command">
+                            <h3 class="command-name">Микола Тарасов</h3>
+                            <p lang="en" class="command-name-position">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="our-team-item">
+                        <img src="./images/uidesigner.jpg" width="270" alt="UI Designer" class="img">
+                        <div class="command">
+                            <h3 class="command-name">Михайло Єрмаков</h3>
+                            <p lang="en" class="command-name-position">UI Designer</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="fotter-box">
-            <a href="./index.html" lang="en" class="logo-wight"><span class="logo-web">Web</span>Studio</a>
-            <address class="list">
-                <ul class=" footer-addresslist list">
-                    <li class="footer-contacts">м. Київ, пр-т Лесі Українки, 26</li>
-                    <li class="footer-contacts">
-                        <a href="tel:+380961111111" class="footer-contacts-text">+38 096 111 11 11</a>
-                    </li>
-                    <li class="footer-contacts">
-                        <a href=".info@devstudio.com" class="footer-contacts-text">info@devstudio.com</a>
-                    </li>
-                </ul>
-            </address>
+        <div class="container ">
+            <div class="footer-maine">
+                <a href="./index.html" lang="en" class="logo-wight"><span class="logo-web">Web</span>Studio</a>
+                <address class="list">
+                    <ul class=" footer-addresslist list">
+                        <li class="footer-contacts">м. Київ, пр-т Лесі Українки, 26</li>
+                        <li class="footer-contacts">
+                            <a href="tel:+380961111111" class="footer-contacts-text">+38 096 111 11 11</a>
+                        </li>
+                        <li class="footer-contacts">
+                            <a href=".info@devstudio.com" class="footer-contacts-text">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
         </div>
     </footer>
 </body>
