@@ -114,9 +114,10 @@ body{
 .main-headline{
     background-color: #2F303A;
     color: var(--backround-color);
-    padding: 200px 452px 280px 452px;
-    margin: 0px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
+
 .main-headline-text{
     font-weight: 900;
     font-size:44px;
@@ -160,10 +161,10 @@ body{
     flex-wrap: wrap;
  }
 
- .our-advantages {
+
+ .advantages-main {
     margin-top: 94px;
  }
-
 
 .our-advantages-item:first-child {
     margin-left: 15px;
@@ -201,8 +202,6 @@ body{
  .we-doing-item{
     margin-top: 50px;
  }
-
-
  
 .we-doing-item:not(last-child) {
     margin-right: 30px;
@@ -277,6 +276,8 @@ address {font-style: normal;}
 
 .footer {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
     
     line-height: 1.71;
     color: var(--backround-color);
@@ -288,13 +289,13 @@ address {font-style: normal;}
 
 .footer-maine {
     margin-left: 15px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    
 }
 
-.footer-contacts:first-child{
+.footer-addresslist {
     margin-top: 20px;
+}
+
+.footer-contacts:first-child {
     color: var(--backround-color);
 }
 
@@ -307,8 +308,8 @@ color: var(--backround-color); opacity: 0.6;
 }
 
 .container-portfolio{
-    margin-bottom: 94px;
-    margin-top: 94px;
+   margin-bottom: 94px;
+   margin-top: 94px;
 }
 
 .portfolio-button-block {
@@ -326,6 +327,7 @@ background-color: #F5F4FA;
 height: 38px;
 border: none ;
 border-radius: 4px;
+padding: 6px 22px 6px 22px;
 
 font-family: 'Roboto', sans-serif;
 cursor: pointer;
@@ -333,22 +335,16 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
 text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+
 }
 
-.button-portfolio-text:hover, .button-portfolio-text:focus {
-    color: var(--backround-color);
-}
 
-
-.button-portfolio-text{
-    padding: 10px 22px;
-    font-family: 'Roboto', sans-serif;
-    color: var(--main-text-color);
-    letter-spacing: 0.03em;
-}
 
 .button-portfolio:hover, .button-portfolio:focus {
 background-color: var(--accent-color);
+color: var(--backround-color);
 }
 
 .portfolio-items-block {
