@@ -90,7 +90,6 @@ body{
     display: flex;
     margin-top: 32px;
     margin-bottom: 32px;
-    color: #de2121;
 
     font-weight: 500;
     color: var(--main-text-color);
