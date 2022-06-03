@@ -162,7 +162,8 @@ body{
 
 
  .advantages-main {
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
  }
 
 .our-advantages-item:first-child {
@@ -195,7 +196,7 @@ body{
 }
 
  .we-doing-section{
-    margin-top: 94px;
+    padding-bottom: 94px;
  }
 
  .we-doing-item{
@@ -220,7 +221,6 @@ body{
 }
 
 .our-team-block {
-    margin-top:94px;
     background-color: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -307,8 +307,8 @@ color: var(--backround-color); opacity: 0.6;
 }
 
 .container-portfolio{
-   margin-bottom: 94px;
-   margin-top: 94px;
+   padding-bottom: 94px;
+   padding-top: 94px;
 }
 
 .portfolio-button-block {
